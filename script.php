@@ -21,6 +21,14 @@ $return['items'][] = [
 ];
 
 $return['items'][] = [
+	'title' => 'pondering-wizard',
+	'arg'   => ':pondering-wizard-1-1::pondering-wizard-1-2::pondering-wizard-1-3:'.PHP_EOL.':pondering-wizard-2-1::pondering-wizard-2-2::corn-on-the-orb:',
+	'icon'  => [
+		'path' => 'icons/pondering.png',
+	],
+];
+
+$return['items'][] = [
 	'title' => 'bigger-oof',
 	'arg'   => ':bigger-oof1::bigger-oof2::bigger-oof3:'.PHP_EOL.':bigger-oof4::bigger-oof5::bigger-oof6:'.PHP_EOL.':bigger-oof7::bigger-oof8::bigger-oof9:',
 	'icon'  => [
