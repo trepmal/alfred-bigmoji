@@ -196,12 +196,22 @@ $return['items'][] = [
 
 $return['items'][] = [
 	'title' => 'honk-bomb',
-	'arg'   => ':honk-bomb-0-0::honk-bomb-0-1::honk-bomb-0-2::honk-bomb-0-3::honk-bomb-0-4::honk-bomb-0-5::honk-bomb-0-6::honk-bomb-0-7:
-	:honk-bomb-1-0::honk-bomb-1-1::honk-bomb-1-2::honk-bomb-1-3::honk-bomb-1-4::honk-bomb-1-5::honk-bomb-1-6::honk-bomb-1-7:
-	:honk-bomb-2-0::honk-bomb-2-1::honk-bomb-2-2::honk-bomb-2-3::honk-bomb-2-4::honk-bomb-2-5::honk-bomb-2-6::honk-bomb-2-7:
-	:honk-bomb-3-0::honk-bomb-3-1::honk-bomb-3-2::honk-bomb-3-3::honk-bomb-3-4::honk-bomb-3-5::honk-bomb-3-6::honk-bomb-3-7:',
+	'arg'   => ':honk-bomb-0-0::honk-bomb-0-1::honk-bomb-0-2::honk-bomb-0-3::honk-bomb-0-4::honk-bomb-0-5::honk-bomb-0-6::honk-bomb-0-7:'.PHP_EOL.
+':honk-bomb-1-0::honk-bomb-1-1::honk-bomb-1-2::honk-bomb-1-3::honk-bomb-1-4::honk-bomb-1-5::honk-bomb-1-6::honk-bomb-1-7:'.PHP_EOL.
+':honk-bomb-2-0::honk-bomb-2-1::honk-bomb-2-2::honk-bomb-2-3::honk-bomb-2-4::honk-bomb-2-5::honk-bomb-2-6::honk-bomb-2-7:'.PHP_EOL.
+':honk-bomb-3-0::honk-bomb-3-1::honk-bomb-3-2::honk-bomb-3-3::honk-bomb-3-4::honk-bomb-3-5::honk-bomb-3-6::honk-bomb-3-7:',
 	'icon'  => [
 		'path' => 'icons/honk.png',
+	],
+];
+
+$return['items'][] = [
+	'title' => 'pooch-bomb',
+	'arg'   => ':pooch-bomb-0-0::pooch-bomb-0-1::pooch-bomb-0-2::pooch-bomb-0-3::pooch-bomb-0-4:'.PHP_EOL.
+':pooch-bomb-1-0::pooch-bomb-1-1::pooch-bomb-1-2::pooch-bomb-1-3::pooch-bomb-1-4:'.PHP_EOL.
+':pooch-bomb-2-0::pooch-bomb-2-1::pooch-bomb-2-2::pooch-bomb-2-3::pooch-bomb-2-4:',
+	'icon'  => [
+		'path' => 'icons/pooch-bomb.gif',
 	],
 ];
 
