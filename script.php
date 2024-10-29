@@ -215,6 +215,13 @@ $return['items'][] = [
 	],
 ];
 
+$return['items'][] = [
+	'title' => 'welcome-mat',
+	'arg'   => mosaic( 'welcome-mat', 3, 5 ),
+	'icon'  => [
+		'path' => 'icons/welcome-mat.png',
+	],
+];
 
 /**
             just bee movie below.....
