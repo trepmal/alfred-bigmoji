@@ -213,6 +213,14 @@ $return['items'][] = [
 	],
 ];
 
+$return['items'][] = [
+	'title' => 'pooch-bomb',
+	'arg'   => mosaic( 'pooch-bomb', 2, 4, 0 ),
+	'icon'  => [
+		'path' => 'icons/pooch-bomb.gif',
+	],
+];
+
 /**
             just bee movie below.....
                                            **/
@@ -283,7 +291,7 @@ $return['items'][] = [
  * @param int $cols Number of cols. Use 0 to indicate that there's only 1 col, but it should not be indicated in the name
  * @return string
  */
-function mosaic( $name, $rows=3, $cols=4 ) {
+function mosaic( $name, $rows=3, $cols=4, $start=1) {
 
 	$print_row = $print_col = true;
 
@@ -298,8 +306,8 @@ function mosaic( $name, $rows=3, $cols=4 ) {
 
 	$output = '';
 
-	for ( $x=1; $x<=$rows; $x++ ) {
-		for ( $y=1; $y<=$cols; $y++ ) {
+	for ( $x=$start; $x<=$rows; $x++ ) {
+		for ( $y=$start; $y<=$cols; $y++ ) {
 			$output .= sprintf(
 				":%s%s%s:",
 				$name,
