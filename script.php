@@ -223,6 +223,14 @@ $return['items'][] = [
 	],
 ];
 
+$return['items'][] = [
+	'title' => 'chaos-goose',
+	'arg'   => mosaic( 'bigger-chaos-goose', 4, 4 ),
+	'icon'  => [
+		'path' => 'icons/chaos-goose.png',
+	],
+];
+
 /**
             just bee movie below.....
                                            **/
