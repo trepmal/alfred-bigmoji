@@ -231,6 +231,14 @@ $return['items'][] = [
 	],
 ];
 
+$return['items'][] = [
+	'title' => 'space-toast',
+	'arg'   => mosaic( 'space-toast', 5, 4 ),
+	'icon'  => [
+		'path' => 'icons/space-toast.png',
+	],
+];
+
 /**
             just bee movie below.....
                                            **/
