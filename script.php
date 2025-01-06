@@ -247,6 +247,14 @@ $return['items'][] = [
 	],
 ];
 
+$return['items'][] = [
+	'title' => 'bigger-sob',
+	'arg'   => mosaic( 'bigger-sob', 4, 4 ),
+	'icon'  => [
+		'path' => 'icons/sob.png',
+	],
+];
+
 /**
             just bee movie below.....
                                            **/
