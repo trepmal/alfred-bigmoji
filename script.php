@@ -255,6 +255,14 @@ $return['items'][] = [
 	],
 ];
 
+$return['items'][] = [
+	'title' => 'biggest-facepalm',
+	'arg'   => mosaic( 'biggest-facepalm', 3, 3 ),
+	'icon'  => [
+		'path' => 'icons/facepalm.gif',
+	],
+];
+
 /**
             just bee movie below.....
                                            **/
